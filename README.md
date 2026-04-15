@@ -19,7 +19,7 @@ Simulated brute force attacks on a cloud-hosted VM and built detection logic usi
 * Detected failed and successful login patterns
 * Investigated attacker behavior using logs
 * Mapped activity to MITRE ATT&CK (T1110, T1078)
-👉 [View Project](https://github.com/adaobievelyn/cloud-siem-attack-lab)
+* 👉 [View Project](https://github.com/adaobievelyn/cloud-siem-attack-lab)
 
 ### 2. Threat Hunting & Log Analysis *(Planned)*
 
