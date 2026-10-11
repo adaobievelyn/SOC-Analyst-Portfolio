@@ -1,41 +1,113 @@
-# SOC Analyst Portfolio – Adaobi Evelyn
+# Security Operations, DFIR & Detection Engineering Portfolio
 
-I am an aspiring Security Operations Center (SOC) Analyst with hands-on experience in detecting, analyzing, and responding to security incidents using real-world simulations.
+I am Nnanna Adaobi Evelyn, a cybersecurity practitioner working across
+SOC analysis, incident response/DFIR, detection engineering, threat hunting
+and security telemetry engineering.
 
-## Core Skills
+My work focuses on evidence-driven investigation: preserving what the
+underlying telemetry actually supports, correlating activity across sources,
+testing detection logic against failure cases, and producing findings that
+remain traceable to source evidence.
 
-* SIEM: Microsoft Sentinel, Splunk, Elastic, GCP
-* Log Analysis & Threat Hunting
-* Incident Detection & Response
-* MITRE ATT&CK Framework
-* Basic Networking & Linux
+## Flagship Project
 
-## Featured Projects
+### TraceSOC — Provenance-First SOC/DFIR Evidence-Reconstruction Engine
 
-### 1. Cloud SIEM Attack Detection Lab *(In Progress)*
+TraceSOC is an original security engineering project built to reconstruct
+analytical findings from heterogeneous raw evidence while preserving
+provenance throughout the analysis chain.
 
-Simulated brute force attacks on a cloud-hosted VM and built detection logic using Microsoft Sentinel.
+The system works across email, packet, Zeek, Sysmon, PowerShell Operational
+and Windows Security evidence and supports normalization, detection,
+bounded cross-source correlation, evidence graphs, findings, narratives
+and reverse tracing to original artifacts.
 
-* Detected failed and successful login patterns
-* Investigated attacker behavior using logs
-* Mapped activity to MITRE ATT&CK (T1110, T1078)
-* 👉 [View Project](https://github.com/adaobievelyn/cloud-siem-attack-lab)
+Key validated results include:
 
-### 2. Threat Hunting & Log Analysis *(Planned)*
+- 5,442 / 5,442 canonical observations with raw-evidence locators
+- External Zeek reconciliation: 23,145 / 23,145 records
+- Sealed holdout reconciliation: 156,458 / 156,458 records
+- 524 / 524 regression tests passed
+- 4 / 4 public acceptance classes passed
+- Two clean reproductions produced the same 11 core output hashes
+- 198,463-record measured workload completed on an approximately 8 GB machine
 
-Analyzing log datasets to identify suspicious behavior, lateral movement, and credential misuse.
+> Public documentation presents the engineering approach and independently
+> supportable results. Private programme fixtures and controlled assessment
+> material are not published.
 
-### 3. Phishing Email Analysis *(Planned)*
+## Selected Projects
 
-Performing email header analysis, link inspection, and attachment investigation.
+### 8GB SOC Lab — Multi-Endpoint Wazuh SIEM
 
-## Goal
+Engineered and operated a Wazuh SOC environment across Windows and Linux
+endpoints on an 8GB laptop.
 
-To become a Tier 1 SOC Analyst by demonstrating real-world detection and incident response capabilities through hands-on labs and documented investigations.
+The project included:
 
-## Certifications
-- Cisco Junior Cybersecurity Analyst
-- ISO/IEC 42001:2023 Lead Implementer
+- Wazuh Manager deployment
+- Windows and Linux agent onboarding
+- Centralized endpoint telemetry
+- Authentication and host-event investigation
+- File Integrity Monitoring and audit telemetry
+- Controlled reverse-shell/listener testing
+- Troubleshooting virtualization and service failures under severe
+  resource constraints
 
+### GCP + Elastic Security — SSH Investigation
 
-This portfolio is actively being updated with new projects and security investigations.
+Deployed an Ubuntu workload on Google Cloud Platform and onboarded
+authentication, system, network and process telemetry into Elastic Security.
+
+Investigated repeated SSH authentication failures followed by successful
+privileged access using KQL, mapped observed behavior to MITRE ATT&CK,
+and implemented SSH hardening and access restrictions.
+
+## Assessed Security Engineering Work
+
+Through Ubuntu Bridge Initiative's SOC Analysis programme, my work has
+included:
+
+- Threat-hunting pipelines with Python and DuckDB
+- Security-telemetry normalization and identity resolution
+- Deception-sensor analysis
+- STIX 2.1, Sigma and Suricata outputs
+- Network detection engineering with containerlab, FRR and nftables
+- Detection-as-code and adversarial mutation testing
+- Multi-source incident reconstruction and DFIR
+
+I progressed to Stage 9B finalist status with cumulative standing of
+1st of 18 in the SOC Analysis track.
+
+## Technical Areas
+
+**SOC / DFIR**
+Incident investigation, timeline reconstruction, evidence preservation,
+provenance, threat hunting, IOC validation, authentication/process/network
+analysis
+
+**Detection Engineering**
+Detection-as-code, semantic detection, multi-event correlation, benign
+controls, regression testing, MITRE ATT&CK
+
+**Security Telemetry**
+Wazuh, Elastic Security, Sysmon, Zeek, Suricata, Windows Security,
+PowerShell Operational, PCAP
+
+**Engineering**
+Python, DuckDB/SQL, KQL, PowerShell, Linux, Git, containerlab, FRR,
+nftables
+
+## Technical Writing & Advocacy
+
+I document practical cybersecurity work and lessons through technical
+writing, including my 8GB Wazuh SOC Lab project.
+
+I have also delivered cybersecurity and digital-safety awareness sessions
+through the Women Techsters Initiative across 7 schools, reaching 600+
+students.
+
+## Connect
+
+- LinkedIn: linkedin.com/in/adaobievelyn
+- Medium: medium.com/@nnanna.adaobi.e
