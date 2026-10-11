@@ -38,7 +38,7 @@ Key validated results include:
 
 ## Selected Projects
 
-### 8GB SOC Lab — Multi-Endpoint Wazuh SIEM
+### [8GB SOC Lab — Multi-Endpoint Wazuh SIEM](https://github.com/adaobievelyn/8GB-SOC-Lab-Wazuh)
 
 Engineered and operated a Wazuh SOC environment across Windows and Linux
 endpoints on an 8GB laptop.
