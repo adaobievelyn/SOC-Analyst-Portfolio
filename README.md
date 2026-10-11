@@ -54,7 +54,7 @@ The project included:
 - Troubleshooting virtualization and service failures under severe
   resource constraints
 
-### GCP + Elastic Security — SSH Investigation
+### [GCP + Elastic Security — SSH Investigation](https://github.com/adaobievelyn/GCP-Elastic-SSH-Investigation)
 
 Deployed an Ubuntu workload on Google Cloud Platform and onboarded
 authentication, system, network and process telemetry into Elastic Security.
